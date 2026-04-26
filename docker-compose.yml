@@ -7,3 +7,7 @@ services:
       - .env
     stdin_open: true
     tty: true
+  sandbox:
+    build:
+      context: sandbox
+      dockerfile: Dockerfile
