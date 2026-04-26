@@ -4,9 +4,16 @@ import sys
 
 logger = logging.getLogger(__name__)
 
+restricted_functions = ['os', 'sys', 'subprocess', 'shutil', 'socket', 'requests', 'while True:']
+
 def python_code_execute(code: str) -> str:
     output_stdout = io.StringIO()
     old_stdout = sys.stdout
+
+    for restricted_func in restricted_functions:
+        if restricted_func in code:
+            logger.warning('Агент пытается сломать код')
+            return f'Использование {restricted_func} запрещено'
 
     try:
         sys.stdout = output_stdout

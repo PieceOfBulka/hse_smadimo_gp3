@@ -7,7 +7,38 @@ services:
       - .env
     stdin_open: true
     tty: true
+    depends_on:
+      sandbox:
+        condition: service_started
+    networks:
+      - internal
+      - external
+
   sandbox:
     build:
       context: sandbox
       dockerfile: Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:size=512M
+      - /app/results:size=128M
+      - /app/models:size=512M
+    ulimits:
+      nproc: 64
+      nofile:
+        soft: 1024
+        hard: 8192
+    networks:
+      - internal
+
+networks:
+  internal:
+    internal: true
+  external:
