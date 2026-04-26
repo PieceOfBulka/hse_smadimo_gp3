@@ -1,1 +1,7 @@
 pandas
+numpy
+scikit-learn
+catboost
+lightgbm
+pydantic
+scipy
