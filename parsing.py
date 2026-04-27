@@ -1,4 +1,5 @@
 import time
+import gc
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -31,8 +32,6 @@ def create_driver():
 
 
 def get_info_hh():
-    driver = create_driver()
-
     try:
         driver.get('https://hh.ru/')
         WebDriverWait(driver, 5).until(
@@ -97,8 +96,7 @@ def prepare_user_response(text: str) -> str | int:
         return -1
 
 
-def get_info_job_title(total_link):
-    driver = create_driver()
+def get_info_job_title(total_link, driver):
     all_html = ''
 
     try:
@@ -138,11 +136,20 @@ def get_info_job_title(total_link):
                             with open(path_to_load_check, 'w', encoding='utf-8') as file:
                                 file.write(all_html)
                                 all_html = ''
+
                             log.info(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
+                            
+                            gc.collect()
+                            log.debug(f'Очистка оперативной памяти через GC после чекпоинта: {page}')
                         
                         soup = BeautifulSoup(result, 'html.parser')
                         future_page = soup.find('a', attrs={'data-qa': 'pager-page'}, string=str(page + 2))
                         
+
+                        del soup
+                        gc.collect()
+                        log.debug(f'Очистка переменной soup после: {page}')
+
                         if future_page:
                             page += 1
                         else:
@@ -158,6 +165,10 @@ def get_info_job_title(total_link):
                     
                     with open(path_to_final, 'w', encoding='utf-8') as file:
                         file.write(all_html)
+                    
+                    gc.collect()
+                    log.debug(f'Очистка оперативной памяти через GC после финальной страницы')
+
                 log.info(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
 
                 return 1
@@ -165,13 +176,12 @@ def get_info_job_title(total_link):
             log.warning(f'Переход на главную страницу не удался...')
     except Exception as ex:
         log.error(f'Возникла ошибка: {ex}')  
-    finally:
-        driver.quit()
-        log.info('Драйвер успешно закрыт')
 
 
 
 if __name__ == '__main__':
+
+    # возьмем самые популярные вакансии, ссылка на сттью hh: https://hh.ru/article/32303
     vac_names = [
         "Программист Python",
         "Программист Java",
@@ -272,7 +282,9 @@ if __name__ == '__main__':
         "Менеджер ресторана",
         "Юрист",
         "Юрисконсульт",
-]
+    ]
+
+    driver = create_driver()
 
     log.info('--- 1. Начало работы ---')
     # job_name = get_info_from_user()
@@ -286,11 +298,15 @@ if __name__ == '__main__':
             log.error(' --- ОШИБКА: некорректный запрос пользователя')
         else:
             log.info('--- 3. Получение страницы ---')
-            page_text = get_info_job_title(second_link_part)
+            page_text = get_info_job_title(second_link_part, driver)
             if page_text == -1:
                 log.error(f'ОШИБКА при обращении к hh.ru для профессии: {curr_vac_name}')
+
 
         log.info(f'Закончена обработка профессии: {curr_vac_name}')
         
         log.debug('Программа остановлена на 2 секунды при смене профессии')
         time.sleep(2)
+
+    driver.quit()
+    log.info('Драйвер успешно закрыт')
