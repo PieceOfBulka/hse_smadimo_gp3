@@ -1,9 +1,12 @@
 import time
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import fake_useragent
+import os
+import file_sripts
 
 
 def create_driver():
@@ -63,6 +66,7 @@ def get_info_from_user() -> str:
     job_title = 'Аналитик данных'
     return job_title
 
+
 def prepare_user_response(text: str) -> str | int:
     try: 
         if isinstance('text', str) and len(text) >= 1:
@@ -84,12 +88,13 @@ def prepare_user_response(text: str) -> str | int:
         return -1
 
 
-
 def get_info_job_title(total_link):
     driver = create_driver()
+    all_html = ''
 
     try:
         driver.get('https://hh.ru/')
+
         WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.TAG_NAME, 'body'))
         )
@@ -98,34 +103,57 @@ def get_info_job_title(total_link):
         time.sleep(0.75)
 
         if driver.current_url:        
-            url = f'https://hh.ru/search/vacancy{total_link}&salary=&label=with_salary&search_field=name&area=113'
-            driver.get(url=url)
-            WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.TAG_NAME, 'body'))
-            )
-            
-            if driver.current_url:
-                print('--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ --- ')
+                page = 0
 
-                result = driver.page_source
-                
-                with open(f'page_{total_link}.html', 'w', encoding='utf-8') as f:
-                    f.write(result)
-                    print(f' --- СТРАНИЦА СОХРАНЕНА В HTML')
+                while True:
+                    url = f'https://hh.ru/search/vacancy{total_link}&salary=&label=with_salary&search_field=name&area=113&page={page}'
+                    driver.get(url=url)
+                    WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.TAG_NAME, 'body'))
+                    )
+            
+                    if driver.current_url:
+                        print(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
+
+                        result = driver.page_source
+                        all_html += result
+
+                        # создание чек-поинта для больших обновлений данных
+                        if page > 0 and page % 5 == 0:
+                            
+                            # создаем папку для сохранения файлов
+                            name_of_dir = 'checkpoints'
+                            file_sripts.create_checkpoints_dir()
+                            path_to_load_check = os.path.join(name_of_dir, f'page_{total_link[3::]}_checkpoint_{page}.html')
+
+                            with open(path_to_load_check, 'w', encoding='utf-8') as file:
+                                file.write(all_html)
+                                all_html = ''
+                            print(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
+                        
+                        soup = BeautifulSoup(result, 'html.parser')
+                        future_page = soup.find('a', attrs={'data-qa': 'pager-page'}, string=str(page + 2))
+                        
+                        if future_page:
+                            page += 1
+                        else:
+                            print(f'ВСЕГО СОБРАНО СТРАНИЦ {page + 1}')
+                            break
+
+                    else:
+                        print(f'Переход к вакансиям не удался')
+                        return -1
+
+                with open(f'page_{total_link}.html', 'w', encoding='utf-8') as file:
+                    file.write(all_html)
+                    print(f' --- СТРАНИЦА {page} СОХРАНЕНА В HTML ---')
                 return 1
-            else:
-                print(f'Переход к вакансиям не удался')
-                return -1
         else:
             print(f'Переход на главную страницу не удался...')
     except Exception as ex:
         print(f'Возникла ошибка: {ex}')  
     finally:
         driver.quit()
-
-
-
-
 
 
 
