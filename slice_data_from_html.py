@@ -1,12 +1,10 @@
 from bs4 import BeautifulSoup
 import sqlite3
 import os
-import file_sripts
 import db_sripts
 from logger_master import get_logger
 
 log = get_logger('SLICE')
-
 
 
 def get_title(data_item):
@@ -157,12 +155,12 @@ def parse_all_checkpoints(cursor, conn, checkpoints_dir='checkpoints'):
         counter += 1
 
     
-if __name__ == '__main__':
-    connection = sqlite3.Connection('GP_DB.db')
-    cursor = connection.cursor()
+# if __name__ == '__main__':
+#     connection = sqlite3.Connection('GP_DB.db')
+#     cursor = connection.cursor()
 
-    parse_all_checkpoints(cursor, connection)
+#     parse_all_checkpoints(cursor, connection)
     
-    print(db_sripts.select_limit_data(cursor))
+#     print(db_sripts.select_limit_data(cursor))
 
-    connection.close()
+#     connection.close()

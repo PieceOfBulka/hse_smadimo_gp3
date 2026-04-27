@@ -1,5 +1,6 @@
 import time
 import gc
+import sqlite3
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,6 +11,7 @@ import os
 import file_sripts
 import db_sripts
 from logger_master import get_logger
+import slice_data_from_html 
 
 log = get_logger('PARSING')
 
@@ -310,3 +312,17 @@ if __name__ == '__main__':
 
     driver.quit()
     log.info('Драйвер успешно закрыт')
+
+    log.info('Начат процесс обработки HTML-файлов и загрузки данных в БД')
+    connection = sqlite3.connect('GP_DB.db')
+    cursor = connection.cursor()
+
+    db_sripts.create_table(cursor, connection)
+
+    slice_data_from_html.parse_all_checkpoints(cursor, connection)
+
+    print(db_sripts.select_limit_data(cursor))
+
+    connection.close()
+    log.info('Соединение успешно закрыт')
+    
