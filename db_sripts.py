@@ -1,5 +1,7 @@
 import sqlite3
+from logger_master import get_logger
 
+log = get_logger('DB')
 
 def create_table(cursor, conn):
     try:
@@ -25,8 +27,10 @@ def create_table(cursor, conn):
     
         cursor.execute(query)
         conn.commit()
+
+        log.info(f'СОЗДАНА ТАБЛИЦА vacancies')
     except Exception as ex:
-        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+        log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
 
 def insert_data_first_batch(cursor, conn, batch_list):
@@ -40,9 +44,10 @@ def insert_data_first_batch(cursor, conn, batch_list):
 
         cursor.executemany(query, batch_list)
         conn.commit()
-        print(f'--- Сохранено {len(batch_list)} вакансий ---')
+        log.info(f'--- Сохранено {len(batch_list)} вакансий ---')
     except Exception as ex:
-        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+        log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
+
 
 def select_all_data(cursor):
     try:
@@ -54,7 +59,8 @@ def select_all_data(cursor):
         answer = cursor.fetchall()
         return answer
     except Exception as ex:
-        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+        log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
+
 
 def select_limit_data(cursor, limit=100):
     try:
@@ -65,9 +71,13 @@ def select_limit_data(cursor, limit=100):
 
         cursor.execute(query)
         answer = cursor.fetchall()
+
+        log.debug(f'Выборка в: {limit} строк из таблицы vacancies излечена')
+
         return answer
     except Exception as ex:
-        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+        log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
+
 
 def DROP_TABLE(cursor, conn):
     try:
@@ -75,8 +85,10 @@ def DROP_TABLE(cursor, conn):
         
         cursor.execute(query)
         conn.commit()
+
+        log.warning(f'ТАБЛИЦА УСПЕШНО УДАЛЕНА vacancies - НЕ ОБРАЩАТЬСЯ')
     except Exception as ex:
-        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+        log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
 # if __name__ == '__main__':
 #     connection = sqlite3.Connection('GP_DB.db')

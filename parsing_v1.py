@@ -8,6 +8,9 @@ import fake_useragent
 import os
 import file_sripts
 import db_sripts
+from logger_master import get_logger
+
+log = get_logger('PARSING')
 
 
 def create_driver():
@@ -21,10 +24,10 @@ def create_driver():
     driver = webdriver.Chrome(options=new_options)
 
     if driver:
-        print(f'Драйвер для работы с selenium-создан: {driver}')
+        log.info(f'Драйвер для работы с selenium создан: {driver}')
         return driver
     else:
-        return None
+        log.critical(f'Драйвер для работы c selenium НЕ создан: {driver}')
 
 
 def get_info_hh():
@@ -82,11 +85,15 @@ def prepare_user_response(text: str) -> str | int:
 
             synonims = '&ored_clusters=true'
             result_link = '?text=' + words + synonims
+            
+            log.debug(f'Итоговая ссылка с названием профессии: {result_link}')
+
             return result_link
         else:
+            log.warning(f'Некоректные входные данные в prepare_user_response: {text}')
             return -1
     except Exception as ex:
-        print(f'--- ОШИБКА ПРИ ОБРАБОТКЕ ЗАПРОСА: функция: prepare_user_response\n\nОШИБКА: {ex}')
+        log.error(f'--- ОШИБКА ПРИ ОБРАБОТКЕ ЗАПРОСА: функция: prepare_user_response\n\nОШИБКА: {ex}')
         return -1
 
 
@@ -97,11 +104,11 @@ def get_info_job_title(total_link):
     try:
         driver.get('https://hh.ru/')
 
-        WebDriverWait(driver, 5).until(
+        WebDriverWait(driver, 3).until(
                 EC.presence_of_element_located((By.TAG_NAME, 'body'))
         )
         
-        print(f'Успешно перешли на главную страницу, ожидаем 0.75 сек')
+        log.info(f'Успешно перешли на главную страницу, ожидаем 0.75 сек')
         time.sleep(0.75)
 
         if driver.current_url:        
@@ -115,7 +122,7 @@ def get_info_job_title(total_link):
                     )
             
                     if driver.current_url:
-                        print(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
+                        log.info(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
 
                         result = driver.page_source
                         all_html += result
@@ -131,7 +138,7 @@ def get_info_job_title(total_link):
                             with open(path_to_load_check, 'w', encoding='utf-8') as file:
                                 file.write(all_html)
                                 all_html = ''
-                            print(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
+                            log.info(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
                         
                         soup = BeautifulSoup(result, 'html.parser')
                         future_page = soup.find('a', attrs={'data-qa': 'pager-page'}, string=str(page + 2))
@@ -139,11 +146,11 @@ def get_info_job_title(total_link):
                         if future_page:
                             page += 1
                         else:
-                            print(f'ВСЕГО СОБРАНО СТРАНИЦ {page + 1}')
+                            log.info(f'ВСЕГО СОБРАНО СТРАНИЦ {page + 1}')
                             break
 
                     else:
-                        print(f'Переход к вакансиям не удался')
+                        log.warning(f'Переход к вакансиям не удался')
                         return -1
 
                 if all_html:
@@ -151,28 +158,29 @@ def get_info_job_title(total_link):
                     
                     with open(path_to_final, 'w', encoding='utf-8') as file:
                         file.write(all_html)
-                print(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
-                
+                log.info(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
+
                 return 1
         else:
-            print(f'Переход на главную страницу не удался...')
+            log.warning(f'Переход на главную страницу не удался...')
     except Exception as ex:
-        print(f'Возникла ошибка: {ex}')  
+        log.error(f'Возникла ошибка: {ex}')  
     finally:
         driver.quit()
+        log.info('Драйвер успешно закрыт')
 
 
 
 if __name__ == '__main__':
-    print('--- 1. Начало работы ---')
+    log.info('--- 1. Начало работы ---')
     job_name = get_info_from_user()
 
-    print('--- 2. Обработка запроса ---')
+    log.info('--- 2. Обработка запроса ---')
     second_link_part = prepare_user_response(job_name)    
     if second_link_part == -1:
-        print(' --- ОШИБКА: некорректный запрос пользователя')
+        log.error(' --- ОШИБКА: некорректный запрос пользователя')
     else:
-        print('--- 3. Получение страницы ---')
+        log.info('--- 3. Получение страницы ---')
         page_text = get_info_job_title(second_link_part)
         if page_text == -1:
-            print(' --- ОШИБКА: возникла ошибка при обращении к hh.ru')
+            log.info(' --- ОШИБКА: возникла ошибка при обращении к hh.ru')

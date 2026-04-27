@@ -3,6 +3,10 @@ import sqlite3
 import os
 import file_sripts
 import db_sripts
+from logger_master import get_logger
+
+log = get_logger('SLICE')
+
 
 
 def get_title(data_item):
@@ -11,6 +15,7 @@ def get_title(data_item):
         title = title_tag.get_text(strip=True)
     else:
         title = ''
+        log.debug(f"Название вакансии не найдено в {data_item}")
     
     return title
 
@@ -21,6 +26,7 @@ def get_vac_id(data_item):
         href = link_tag['href']
     else:
         href = ''
+        log.debug(f"Ссылка не найдена в {data_item}")
     
     vac_id = data_item.find('div', id=True)
     if vac_id:
@@ -29,6 +35,8 @@ def get_vac_id(data_item):
     else:
         link = href.split("?")[0]
         vac_id = link.split('/')[-1]
+
+        log.debug(f"ID-вакансии не найдено в {data_item}")
     
     return vac_id, link
 
@@ -39,6 +47,7 @@ def get_company_name(data_item):
         name = company.get_text(strip=True)
     else:
         name = ''
+        log.debug(f"Название компании не найдена в {data_item}")
     
     return name
 
@@ -61,6 +70,8 @@ def get_salary(data_item):
         if any(symb in text for symb in CURRENCY_SUMBOLS):
             salary = text
             break
+    if salary == '':
+        log.debug(f"Зарплата не найдена в {data_item}")
     
     return salary
 
@@ -71,6 +82,7 @@ def get_exp(data_item):
         exp_data = exp.get_text(strip=True)
     else:
         exp_data = ''
+        log.debug(f"Опыт не найдена в {data_item}")
     
     return exp_data
 
@@ -81,7 +93,8 @@ def get_company_adress(data_item):
         address = address_tag.get_text(strip=True)
     else:
         address = ''
-    
+        log.debug(f"Адрес не найден в {data_item}")
+
     return address
 
 
@@ -90,7 +103,10 @@ def get_first_data_batch(path_to_file):
         soup = BeautifulSoup(file, 'html.parser')
 
     data_cards = soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy'})
-    print(f'--- Найдено {len(data_cards)} вакансий')
+    log.info(f'--- Найдено {len(data_cards)} вакансий')
+
+    if len(data_cards) == 0:
+        log.warning(f'НАЙДЕНО 0 карточек в {path_to_file}')
 
     result = []
 
@@ -120,7 +136,7 @@ def parse_all_checkpoints(cursor, conn, checkpoints_dir='checkpoints'):
     files.sort()
 
     if len(files) == 0:
-        print(f'--- ОШИБКА: НЕ НАЙДЕНЫ HTML ФАЙЛЫ В {checkpoints_dir}')
+        log.error(f'--- ОШИБКА: НЕ НАЙДЕНЫ HTML ФАЙЛЫ В {checkpoints_dir}')
         return
 
     already_get_id = set()
@@ -129,7 +145,7 @@ def parse_all_checkpoints(cursor, conn, checkpoints_dir='checkpoints'):
 
     for filename in files:
         path = os.path.join(checkpoints_dir, filename)
-        print(f'! ОБРАБОТКА ФАЙЛА {path} --- {counter / all_size * 100}% !')
+        log.info(f'! ОБРАБОТКА ФАЙЛА {path} --- {counter / all_size * 100}% !')
 
         vac = get_first_data_batch(path)
 
@@ -137,6 +153,8 @@ def parse_all_checkpoints(cursor, conn, checkpoints_dir='checkpoints'):
         already_get_id.update(item['hh_vac_id'] for item in unique_vac)
 
         db_sripts.insert_data_first_batch(cursor, conn, unique_vac)
+        
+        counter += 1
 
     
 if __name__ == '__main__':
