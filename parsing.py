@@ -133,7 +133,9 @@ def get_info_job_title(total_link, driver):
                             # создаем папку для сохранения файлов
                             name_of_dir = 'checkpoints'
                             file_sripts.create_checkpoints_dir()
-                            path_to_load_check = os.path.join(name_of_dir, f'page_{total_link[3::]}_checkpoint_{page}.html')
+
+                            vac_name = total_link.replace('?text=', '').replace('&ored_clusters=true', '').replace('+', '_')
+                            path_to_load_check = os.path.join(name_of_dir, f'page_{vac_name}_checkpoint_{page}.html')
 
                             with open(path_to_load_check, 'w', encoding='utf-8') as file:
                                 file.write(all_html)
@@ -163,7 +165,8 @@ def get_info_job_title(total_link, driver):
                         return -1
 
                 if all_html:
-                    path_to_final = os.path.join('checkpoints', f'page_{total_link[3::]}_checkpoint_final.html')
+                    vac_name = total_link.replace('?text=', '').replace('&ored_clusters=true', '').replace('+', '_')
+                    path_to_load_check = os.path.join(name_of_dir, f'page_{vac_name}_checkpoint_{page}.html')
                     
                     with open(path_to_final, 'w', encoding='utf-8') as file:
                         file.write(all_html)
