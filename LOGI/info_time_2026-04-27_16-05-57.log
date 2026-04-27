@@ -1,0 +1,183 @@
+2026-04-27_16-05-57 – FILES – INFO – Папка: checkpoints успешно создана
+2026-04-27_16-05-59 – PARSING – INFO – Драйвер создан
+2026-04-27_16-05-59 – PARSING – INFO – --- 1. Начало работы ---
+2026-04-27_16-05-59 – PARSING – INFO – --- 2. Обработка запроса ---
+2026-04-27_16-05-59 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-06-29 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.423
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-06-29 – PARSING – INFO – Закончена обработка профессии: Инженер по кибербезопасности
+2026-04-27_16-06-37 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-07-07 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.358
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-07-07 – PARSING – INFO – Закончена обработка профессии: Специалист информационной безопасности
+2026-04-27_16-07-17 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-07-43 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_16-07-43 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_16-07-43 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_16-07-43 – PARSING – INFO – Закончена обработка профессии: Архитектор программного обеспечения
+2026-04-27_16-07-50 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-08-20 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.630
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-08-20 – PARSING – INFO – Закончена обработка профессии: Технический директор CTO
+2026-04-27_16-08-30 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-09-00 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.554
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-09-00 – PARSING – INFO – Закончена обработка профессии: QA инженер
+2026-04-27_16-09-11 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-09-41 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.375
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-09-41 – PARSING – INFO – Закончена обработка профессии: Тестировщик
+2026-04-27_16-09-46 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-10-16 – PARSING – ERROR – Возникла ошибка: Message: timeout: Timed out receiving message from renderer: 29.646
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000100d05ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cfde8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007c38d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007add78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001007ada98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001007ab65c chromedriver + 226908
+6   chromedriver                        0x00000001007ac250 chromedriver + 229968
+7   chromedriver                        0x00000001007b9b3c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34752
+8   chromedriver                        0x00000001007d05a0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127524
+9   chromedriver                        0x00000001007ac8bc chromedriver + 231612
+10  chromedriver                        0x00000001007d039c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127008
+11  chromedriver                        0x000000010084baf4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+12  chromedriver                        0x000000010080127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+13  chromedriver                        0x0000000100cc3f60 cxxbridge1$str$ptr + 2943204
+14  chromedriver                        0x0000000100cc7744 cxxbridge1$str$ptr + 2957512
+15  chromedriver                        0x0000000100ca8e50 cxxbridge1$str$ptr + 2832340
+16  chromedriver                        0x0000000100cc7fc4 cxxbridge1$str$ptr + 2959688
+17  chromedriver                        0x0000000100c99828 cxxbridge1$str$ptr + 2769324
+18  chromedriver                        0x0000000100cec920 cxxbridge1$str$ptr + 3109540
+19  chromedriver                        0x0000000100ceca9c cxxbridge1$str$ptr + 3109920
+20  chromedriver                        0x0000000100cfdae4 cxxbridge1$str$ptr + 3179624
+21  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_16-10-16 – PARSING – INFO – Закончена обработка профессии: Продуктовый менеджер

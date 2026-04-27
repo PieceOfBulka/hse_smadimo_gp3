@@ -1,6 +1,7 @@
 import time
 import gc
 import sqlite3
+import random
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -14,6 +15,14 @@ from logger_master import get_logger
 import slice_data_from_html 
 
 log = get_logger('PARSING')
+
+
+
+def scroll_down(driver, steps=5, delay=0.5):
+    for _ in range(steps):
+        driver.execute_script("window.scrollBy(0, window.innerHeight * 0.7);")
+        time.sleep(delay)
+
 
 
 def create_driver():
@@ -31,6 +40,7 @@ def create_driver():
         return driver
     else:
         log.critical(f'Драйвер для работы c selenium НЕ создан: {driver}')
+
 
 
 def get_info_hh():
@@ -116,9 +126,11 @@ def get_info_job_title(total_link, driver, name_of_dir):
         while True:
             url = f'https://hh.ru/search/vacancy{total_link}&salary=&label=with_salary&search_field=name&area=113&page={page}'
             driver.get(url=url)
-            WebDriverWait(driver, 1.5).until(
-            EC.presence_of_element_located((By.TAG_NAME, 'body'))
+            WebDriverWait(driver, 3).until(
+                EC.presence_of_element_located((By.TAG_NAME, 'body'))
             )
+
+            scroll_down(driver) 
     
             if driver.current_url:
                 log.info(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
@@ -305,7 +317,7 @@ if __name__ == '__main__':
             log.info(f'Закончена обработка профессии: {curr_vac_name}')
             
             log.debug('Программа остановлена на 2 секунды при смене профессии')
-            time.sleep(1)
+            time.sleep(random.uniform(5, 12))
     finally:
         driver.quit()
         log.info('Драйвер успешно закрыт')

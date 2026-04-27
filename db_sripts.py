@@ -61,6 +61,35 @@ def select_all_data(cursor):
     except Exception as ex:
         log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
+def select_count_data(cursor):
+    try:
+        query = """ SELECT 
+        count(id),
+        count(hh_vac_id),
+        count(hh_vac_link),
+        count(title),
+        count(experience),
+        count(employment),
+        count(schedule),
+        count(salary_raw),
+        count(salary_from),
+        count(salary_to),
+        count(currency),
+        count(employer),
+        count(address_raw),
+        count(area),
+        count(address_raw),
+        count(skills),
+        count(published_at)
+        FROM vacancies;
+        """ 
+
+        cursor.execute(query)
+        answer = cursor.fetchall()
+        return answer
+    except Exception as ex:
+        log.error(f'Ошибка в select_count_data: {ex}')
+
 
 def select_limit_data(cursor, limit=100):
     try:
@@ -93,12 +122,14 @@ def DROP_TABLE(cursor, conn):
     except Exception as ex:
         log.error(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
-# if __name__ == '__main__':
-#     connection = sqlite3.Connection('GP_DB.db')
-#     cursor = connection.cursor()
+if __name__ == '__main__':
+    connection = sqlite3.Connection('/Users/anastasia/Desktop/HSE/HSE_3/СМАДИМО/GP_3/hse_smadimo_gp3/GP_DB.db')
+    cursor = connection.cursor()
 
-#     create_table(cursor, connection)
-#     insert_data(cursor, connection)
-#     print(select_data(cursor))
-#     DROP_TABLE(cursor, connection)
-#     connection.close()
+    # create_table(cursor, connection)
+
+    # DROP_TABLE(cursor, connection)
+
+    print(select_count_data(cursor))
+
+    connection.close()
