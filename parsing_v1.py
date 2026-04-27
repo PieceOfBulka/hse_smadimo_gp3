@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 import fake_useragent
 import os
 import file_sripts
+import db_sripts
 
 
 def create_driver():

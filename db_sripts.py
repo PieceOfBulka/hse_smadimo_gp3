@@ -7,17 +7,18 @@ def create_table(cursor, conn):
         id INTEGER PRIMARY KEY,
         hh_vac_id TEXT NOT NULL,
         hh_vac_link TEXT NOT NULL,
-        title           TEXT NOT NULL,
-        experience      TEXT,
-        employment      TEXT,
-        schedule        TEXT,
-        salary_from     INTEGER,
-        salary_to       INTEGER,
-        currency        TEXT,
-        employer        TEXT,
-        area            TEXT,
-        skills          TEXT, -- передаем в формате json
-        published_at    TIMESTAMP
+        title TEXT NOT NULL,
+        experience TEXT,
+        employment TEXT,
+        schedule TEXT,
+        salary_raw TEXT,
+        salary_from INTEGER,
+        salary_to INTEGER,
+        currency TEXT,
+        employer TEXT,
+        area TEXT,
+        skills TEXT, -- передаем в формате json
+        published_at TIMESTAMP
         );
         """
     
