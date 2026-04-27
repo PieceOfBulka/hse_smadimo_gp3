@@ -1,0 +1,55 @@
+2026-04-27_12-21-04 – FILES – INFO – Папка: checkpoints успешно создана
+2026-04-27_12-21-05 – PARSING – INFO – Драйвер для работы с selenium создан: <selenium.webdriver.chrome.webdriver.WebDriver (session="04816d43e439b4cdbec015366cdb69f0")>
+2026-04-27_12-21-05 – PARSING – INFO – --- 1. Начало работы ---
+2026-04-27_12-21-05 – PARSING – INFO – --- 2. Обработка запроса ---
+2026-04-27_12-21-05 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-22-31 – PARSING – INFO – Успешно перешли на главную страницу, ожидаем 0.75 сек
+2026-04-27_12-23-48 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_12-25-04 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_12-25-24 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000105229ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000105221e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104ce78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000104cc036c chromedriver + 164716
+4   chromedriver                        0x0000000104d58380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x0000000104d6f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x0000000104d2527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x00000001051e7f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x00000001051eb744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001051cce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x00000001051ebfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001051bd828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000105210920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000105210a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000105221ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-25-24 – PARSING – INFO – Закончена обработка профессии: Программист Python
+2026-04-27_12-25-26 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-25-26 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000105229ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000105221e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104ce78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000104cc036c chromedriver + 164716
+4   chromedriver                        0x0000000104d58380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x0000000104d6f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x0000000104d2527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x00000001051e7f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x00000001051eb744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001051cce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x00000001051ebfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001051bd828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000105210920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000105210a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000105221ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-25-26 – PARSING – INFO – Закончена обработка профессии: Программист Java

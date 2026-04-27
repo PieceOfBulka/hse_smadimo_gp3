@@ -5,9 +5,13 @@ log = get_logger('FILES')
 
 
 def create_checkpoints_dir(name_of_dir = 'checkpoints'):
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(base_dir, name_of_dir)
     os.makedirs(
-        name_of_dir,
+        path,
         exist_ok = True
     )
     
     log.info(f'Папка: {name_of_dir} успешно создана')
+    
+    return path

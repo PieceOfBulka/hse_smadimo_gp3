@@ -3,12 +3,16 @@ import logging
 from datetime import datetime
 
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+logi_dir = os.path.join(base_dir, 'LOGI')
+os.makedirs(
+        os.path.join(base_dir, 'LOGI'),
+        exist_ok = True
+)
 
-os.makedirs('LOGI', exist_ok = True)
+log_debug_file_name = os.path.join(logi_dir, f'debug_time_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log')
+log_info_file_name  = os.path.join(logi_dir, f'info_time_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log')
 
-
-log_debug_file_name = f'LOGI/debug_time_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log'
-log_info_file_name = f'LOGI/info_time_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log'
 
 # из статьи: https://sky.pro/wiki/media/kak-rabotat-s-logirovaniem-v-python/
 format = logging.Formatter(

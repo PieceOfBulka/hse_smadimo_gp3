@@ -1,0 +1,124 @@
+2026-04-27_12-37-42 – FILES – INFO – Папка: checkpoints успешно создана
+2026-04-27_12-37-44 – PARSING – INFO – Драйвер для работы с selenium создан: <selenium.webdriver.chrome.webdriver.WebDriver (session="c26d050733943b83c3393e26048fe5a5")>
+2026-04-27_12-37-44 – PARSING – INFO – --- 1. Начало работы ---
+2026-04-27_12-37-44 – PARSING – INFO – --- 2. Обработка запроса ---
+2026-04-27_12-37-44 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-37-46 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000104759ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104751e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001042178d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001041f036c chromedriver + 164716
+4   chromedriver                        0x0000000104288380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x000000010429f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x000000010425527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104717f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010471b744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001046fce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010471bfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001046ed828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104740920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104740a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104751ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-37-46 – PARSING – INFO – Закончена обработка профессии: Программист Python
+2026-04-27_12-37-48 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-37-48 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000104759ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104751e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001042178d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001041f036c chromedriver + 164716
+4   chromedriver                        0x0000000104288380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x000000010429f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x000000010425527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104717f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010471b744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001046fce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010471bfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001046ed828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104740920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104740a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104751ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-37-48 – PARSING – INFO – Закончена обработка профессии: Программист Java
+2026-04-27_12-37-50 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-37-50 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000104759ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104751e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001042178d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001041f036c chromedriver + 164716
+4   chromedriver                        0x0000000104288380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x000000010429f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x000000010425527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104717f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010471b744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001046fce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010471bfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001046ed828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104740920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104740a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104751ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-37-50 – PARSING – INFO – Закончена обработка профессии: Программист JavaScript
+2026-04-27_12-37-52 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-37-52 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000104759ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104751e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001042178d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001041f036c chromedriver + 164716
+4   chromedriver                        0x0000000104288380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x000000010429f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x000000010425527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104717f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010471b744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001046fce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010471bfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001046ed828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104740920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104740a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104751ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-37-52 – PARSING – INFO – Закончена обработка профессии: Программист C++
+2026-04-27_12-37-54 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_12-37-54 – PARSING – ERROR – Возникла ошибка: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.103)
+Stacktrace:
+0   chromedriver                        0x0000000104759ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104751e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001042178d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001041f036c chromedriver + 164716
+4   chromedriver                        0x0000000104288380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x000000010429f37c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x000000010425527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104717f60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010471b744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x00000001046fce50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010471bfc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x00000001046ed828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104740920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104740a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104751ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_12-37-54 – PARSING – INFO – Закончена обработка профессии: Программист C#

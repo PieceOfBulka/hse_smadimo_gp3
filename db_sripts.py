@@ -64,12 +64,15 @@ def select_all_data(cursor):
 
 def select_limit_data(cursor, limit=100):
     try:
-        query = f""" SELECT *
-        FROM vacancies
-        LIMIT {limit};
-        """ 
-
-        cursor.execute(query)
+        # query = f""" SELECT *
+        # FROM vacancies
+        # LIMIT {limit};
+        # """ 
+        # cursor.execute(query)
+        
+        query = "SELECT * FROM vacancies LIMIT ?"
+        cursor.execute(query, (limit,))
+        
         answer = cursor.fetchall()
 
         log.debug(f'Выборка в: {limit} строк из таблицы vacancies излечена')

@@ -98,134 +98,128 @@ def prepare_user_response(text: str) -> str | int:
         return -1
 
 
-def get_info_job_title(total_link, driver):
+def get_info_job_title(total_link, driver, name_of_dir):
     all_html = ''
 
     try:
-        driver.get('https://hh.ru/')
+        # driver.get('https://hh.ru/')
 
-        WebDriverWait(driver, 3).until(
-                EC.presence_of_element_located((By.TAG_NAME, 'body'))
-        )
+        # WebDriverWait(driver, 3).until(
+        #         EC.presence_of_element_located((By.TAG_NAME, 'body'))
+        # )
         
-        log.info(f'Успешно перешли на главную страницу, ожидаем 0.75 сек')
-        time.sleep(0.75)
+        # log.info(f'Успешно перешли на главную страницу, ожидаем 0.75 сек')
+        # time.sleep(0.75)
+     
+        page = 0
 
-        if driver.current_url:        
-                page = 0
+        while True:
+            url = f'https://hh.ru/search/vacancy{total_link}&salary=&label=with_salary&search_field=name&area=113&page={page}'
+            driver.get(url=url)
+            WebDriverWait(driver, 1.5).until(
+            EC.presence_of_element_located((By.TAG_NAME, 'body'))
+            )
+    
+            if driver.current_url:
+                log.info(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
 
-                while True:
-                    url = f'https://hh.ru/search/vacancy{total_link}&salary=&label=with_salary&search_field=name&area=113&page={page}'
-                    driver.get(url=url)
-                    WebDriverWait(driver, 5).until(
-                    EC.presence_of_element_located((By.TAG_NAME, 'body'))
-                    )
-            
-                    if driver.current_url:
-                        log.info(f'--- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница {page})--- ')
+                result = driver.page_source
+                all_html += result
 
-                        result = driver.page_source
-                        all_html += result
-
-                        # создание чек-поинта для больших обновлений данных
-                        if page > 0 and page % 5 == 0:
-                            
-                            # создаем папку для сохранения файлов
-                            name_of_dir = 'checkpoints'
-                            file_sripts.create_checkpoints_dir()
-
-                            vac_name = total_link.replace('?text=', '').replace('&ored_clusters=true', '').replace('+', '_')
-                            path_to_load_check = os.path.join(name_of_dir, f'page_{vac_name}_checkpoint_{page}.html')
-
-                            with open(path_to_load_check, 'w', encoding='utf-8') as file:
-                                file.write(all_html)
-                                all_html = ''
-
-                            log.info(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
-                            
-                            gc.collect()
-                            log.debug(f'Очистка оперативной памяти через GC после чекпоинта: {page}')
-                        
-                        soup = BeautifulSoup(result, 'html.parser')
-                        future_page = soup.find('a', attrs={'data-qa': 'pager-page'}, string=str(page + 2))
-                        
-
-                        del soup
-                        gc.collect()
-                        log.debug(f'Очистка переменной soup после: {page}')
-
-                        if future_page:
-                            page += 1
-                        else:
-                            log.info(f'ВСЕГО СОБРАНО СТРАНИЦ {page + 1}')
-                            break
-
-                    else:
-                        log.warning(f'Переход к вакансиям не удался')
-                        return -1
-
-                if all_html:
+                # создание чек-поинта для больших обновлений данных
+                if page > 0 and page % 5 == 0:
                     vac_name = total_link.replace('?text=', '').replace('&ored_clusters=true', '').replace('+', '_')
                     path_to_load_check = os.path.join(name_of_dir, f'page_{vac_name}_checkpoint_{page}.html')
-                    
-                    with open(path_to_final, 'w', encoding='utf-8') as file:
+
+                    with open(path_to_load_check, 'w', encoding='utf-8') as file:
                         file.write(all_html)
+                        all_html = ''
+
+                    log.info(f'--- ПРОМЕЖУТОЧНОЕ СОХРАНЕНИЕ /// страницы {page-5}-{page}) ---')                    
                     
                     gc.collect()
-                    log.debug(f'Очистка оперативной памяти через GC после финальной страницы')
+                    log.debug(f'Очистка оперативной памяти через GC после чекпоинта: {page}')
+                
+                soup = BeautifulSoup(result, 'html.parser')
+                future_page = soup.find('a', attrs={'data-qa': 'pager-page'}, string=str(page + 2))
+                
 
-                log.info(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
+                del soup
+                gc.collect()
+                log.debug(f'Очистка переменной soup после: {page}')
 
-                return 1
-        else:
-            log.warning(f'Переход на главную страницу не удался...')
+                if future_page:
+                    page += 1
+                else:
+                    log.info(f'ВСЕГО СОБРАНО СТРАНИЦ {page + 1}')
+                    break
+
+                if page == 10:
+                    break
+
+        if all_html:
+            vac_name = total_link.replace('?text=', '').replace('&ored_clusters=true', '').replace('+', '_')
+            path_to_load_check = os.path.join(name_of_dir, f'page_{vac_name}_checkpoint_{page}.html')
+            
+            with open(path_to_load_check, 'w', encoding='utf-8') as file:
+                file.write(all_html)
+            
+            gc.collect()
+            log.debug(f'Очистка оперативной памяти через GC после финальной страницы')
+        log.info(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
+        return 1
+    
     except Exception as ex:
         log.error(f'Возникла ошибка: {ex}')  
 
 
 
 if __name__ == '__main__':
+    
+    # создаем папку для сохранения файлов
+    name_of_dir = file_sripts.create_checkpoints_dir()
+    
 
     # возьмем самые популярные вакансии, ссылка на сттью hh: https://hh.ru/article/32303
     vac_names = [
-        "Программист Python",
-        "Программист Java",
-        "Программист JavaScript",
-        "Программист C++",
-        "Программист C#",
-        "Программист Go",
-        "Программист PHP",
-        "Разработчик 1С",
-        "Frontend разработчик",
-        "Backend разработчик",
-        "Fullstack разработчик",
-        "Mobile разработчик Android",
-        "Mobile разработчик iOS",
-        "Разработчик React",
-        "Разработчик Vue",
-        "Аналитик данных",
-        "Data Scientist",
-        "Data Engineer",
-        "ML Engineer",
-        "AI Engineer",
-        "Бизнес аналитик",
-        "Системный аналитик",
-        "BI аналитик",
-        "Инженер данных",
-        "NLP инженер",
-        "DevOps инженер",
-        "Cloud инженер",
-        "Системный администратор",
-        "Сетевой инженер",
-        "DBA администратор баз данных",
+        # "Программист Python",
+        # "Программист Java",
+        # "Программист JavaScript",
+        # "Программист C++",
+        # "Программист C#",
+        # "Программист Go",
+        # "Программист PHP",
+        # "Разработчик 1С",
+        # "Frontend разработчик",
+        # "Backend разработчик",
+        # "Fullstack разработчик",
+        # "Mobile разработчик Android",
+        # "Mobile разработчик iOS",
+        # "Разработчик React",
+        # "Разработчик Vue",
+        # "Аналитик данных",
+        # "Data Scientist",
+        # "Data Engineer",
+        # "ML Engineer",
+        # "AI Engineer",
+        # "Бизнес аналитик",
+        # "Системный аналитик",
+        # "BI аналитик",
+        # "Инженер данных",
+        # "NLP инженер",
+        # "DevOps инженер",
+        # "Cloud инженер",
+        # "Системный администратор",
+        # "Сетевой инженер",
+        # "DBA администратор баз данных",
         "Инженер по кибербезопасности",
         "Специалист информационной безопасности",
-        "Site Reliability Engineer",
+        # "Site Reliability Engineer",
         "Архитектор программного обеспечения",
         "Технический директор CTO",
         "QA инженер",
         "Тестировщик",
-        "Автоматизатор тестирования",
+        # "Автоматизатор тестирования",
         "Продуктовый менеджер",
         "Проджект менеджер",
         "Scrum мастер",
@@ -234,7 +228,7 @@ if __name__ == '__main__':
         "Графический дизайнер",
         "Game разработчик",
         "Бухгалтер",
-        "Главный бухгалтер",
+        # "Главный бухгалтер",
         "Финансовый аналитик",
         "Финансовый директор",
         "Экономист",
@@ -288,41 +282,42 @@ if __name__ == '__main__':
         "Юрист",
         "Юрисконсульт",
     ]
+    try:
+        driver = create_driver()
 
-    driver = create_driver()
+        log.info('--- 1. Начало работы ---')
+        # job_name = get_info_from_user()
 
-    log.info('--- 1. Начало работы ---')
-    # job_name = get_info_from_user()
+        log.info('--- 2. Обработка запроса ---')
 
-    log.info('--- 2. Обработка запроса ---')
+        for curr_vac_name in vac_names:
+            second_link_part = prepare_user_response(curr_vac_name)    
 
-    for curr_vac_name in vac_names:
-        second_link_part = prepare_user_response(curr_vac_name)    
-
-        if second_link_part == -1:
-            log.error(' --- ОШИБКА: некорректный запрос пользователя')
-        else:
-            log.info('--- 3. Получение страницы ---')
-            page_text = get_info_job_title(second_link_part, driver)
-            if page_text == -1:
-                log.error(f'ОШИБКА при обращении к hh.ru для профессии: {curr_vac_name}')
+            if second_link_part == -1:
+                log.error(' --- ОШИБКА: некорректный запрос пользователя')
+            else:
+                log.info('--- 3. Получение страницы ---')
+                page_text = get_info_job_title(second_link_part, driver, name_of_dir)
+                if page_text == -1:
+                    log.error(f'ОШИБКА при обращении к hh.ru для профессии: {curr_vac_name}')
 
 
-        log.info(f'Закончена обработка профессии: {curr_vac_name}')
-        
-        log.debug('Программа остановлена на 2 секунды при смене профессии')
-        time.sleep(2)
-
-    driver.quit()
-    log.info('Драйвер успешно закрыт')
+            log.info(f'Закончена обработка профессии: {curr_vac_name}')
+            
+            log.debug('Программа остановлена на 2 секунды при смене профессии')
+            time.sleep(1)
+    finally:
+        driver.quit()
+        log.info('Драйвер успешно закрыт')
 
     log.info('Начат процесс обработки HTML-файлов и загрузки данных в БД')
-    connection = sqlite3.connect('GP_DB.db')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    connection = sqlite3.connect(os.path.join(base_dir, 'GP_DB.db'))
     cursor = connection.cursor()
 
     db_sripts.create_table(cursor, connection)
 
-    slice_data_from_html.parse_all_checkpoints(cursor, connection)
+    slice_data_from_html.parse_all_checkpoints(cursor, connection, name_of_dir)
 
     print(db_sripts.select_limit_data(cursor))
 

@@ -1,0 +1,15 @@
+2026-04-27_15-52-00 – FILES – INFO – Папка: checkpoints успешно создана
+2026-04-27_15-52-01 – PARSING – INFO – Драйвер для работы с selenium создан: <selenium.webdriver.chrome.webdriver.WebDriver (session="86839c8e4cb97b11a9e5b6407c20f8a4")>
+2026-04-27_15-52-01 – PARSING – INFO – --- 1. Начало работы ---
+2026-04-27_15-52-01 – PARSING – INFO – --- 2. Обработка запроса ---
+2026-04-27_15-52-01 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_15-54-01 – PARSING – ERROR – Возникла ошибка: HTTPConnectionPool(host='localhost', port=54762): Read timed out. (read timeout=120)
+2026-04-27_15-54-01 – PARSING – INFO – Закончена обработка профессии: Инженер по кибербезопасности
+2026-04-27_15-54-02 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_15-56-02 – PARSING – ERROR – Возникла ошибка: HTTPConnectionPool(host='localhost', port=54762): Read timed out. (read timeout=120)
+2026-04-27_15-56-02 – PARSING – INFO – Закончена обработка профессии: Специалист информационной безопасности
+2026-04-27_15-56-03 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_15-58-03 – PARSING – ERROR – Возникла ошибка: HTTPConnectionPool(host='localhost', port=54762): Read timed out. (read timeout=120)
+2026-04-27_15-58-04 – PARSING – INFO – Закончена обработка профессии: Архитектор программного обеспечения
+2026-04-27_15-58-05 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_16-00-02 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 

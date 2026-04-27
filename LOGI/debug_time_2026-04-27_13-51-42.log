@@ -1,0 +1,1657 @@
+2026-04-27_13-51-42 – FILES – INFO – Папка: checkpoints успешно создана
+2026-04-27_13-51-43 – PARSING – INFO – Драйвер для работы с selenium создан: <selenium.webdriver.chrome.webdriver.WebDriver (session="9beaea42664a3bdd56593f954de47b5c")>
+2026-04-27_13-51-43 – PARSING – INFO – --- 1. Начало работы ---
+2026-04-27_13-51-43 – PARSING – INFO – --- 2. Обработка запроса ---
+2026-04-27_13-51-43 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Backend+разработчик&ored_clusters=true
+2026-04-27_13-51-43 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_13-53-07 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_13-53-07 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_13-54-23 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_13-54-23 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_13-55-39 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 2)--- 
+2026-04-27_13-55-39 – PARSING – DEBUG – Очистка переменной soup после: 2
+2026-04-27_13-55-39 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 3
+2026-04-27_13-55-39 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_13-55-39 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_13-55-39 – PARSING – INFO – Закончена обработка профессии: Backend разработчик
+2026-04-27_13-55-39 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_13-55-41 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Fullstack+разработчик&ored_clusters=true
+2026-04-27_13-55-41 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_13-56-57 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_13-56-57 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_13-58-13 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_13-58-13 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_13-59-29 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 2)--- 
+2026-04-27_13-59-29 – PARSING – DEBUG – Очистка переменной soup после: 2
+2026-04-27_13-59-29 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 3
+2026-04-27_13-59-29 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_13-59-29 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_13-59-29 – PARSING – INFO – Закончена обработка профессии: Fullstack разработчик
+2026-04-27_13-59-29 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_13-59-31 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Mobile+разработчик+Android&ored_clusters=true
+2026-04-27_13-59-31 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-00-47 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-00-47 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-00-47 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-00-47 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-00-47 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-00-47 – PARSING – INFO – Закончена обработка профессии: Mobile разработчик Android
+2026-04-27_14-00-47 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-00-49 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Mobile+разработчик+iOS&ored_clusters=true
+2026-04-27_14-00-49 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-02-05 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-02-05 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-02-05 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-02-05 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-02-05 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-02-05 – PARSING – INFO – Закончена обработка профессии: Mobile разработчик iOS
+2026-04-27_14-02-05 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-02-07 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Разработчик+React&ored_clusters=true
+2026-04-27_14-02-07 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-03-23 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-03-23 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-04-39 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_14-04-39 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_14-04-39 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 2
+2026-04-27_14-04-39 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-04-39 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-04-39 – PARSING – INFO – Закончена обработка профессии: Разработчик React
+2026-04-27_14-04-39 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-04-41 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Разработчик+Vue&ored_clusters=true
+2026-04-27_14-04-41 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-06-24 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-06-24 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-06-24 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-06-24 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-06-24 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-06-24 – PARSING – INFO – Закончена обработка профессии: Разработчик Vue
+2026-04-27_14-06-24 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-06-26 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Аналитик+данных&ored_clusters=true
+2026-04-27_14-06-26 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-07-42 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-07-42 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-08-59 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_14-08-59 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_14-10-15 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 2)--- 
+2026-04-27_14-10-15 – PARSING – DEBUG – Очистка переменной soup после: 2
+2026-04-27_14-10-15 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 3
+2026-04-27_14-10-15 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-10-15 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-10-15 – PARSING – INFO – Закончена обработка профессии: Аналитик данных
+2026-04-27_14-10-15 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-10-17 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Data+Scientist&ored_clusters=true
+2026-04-27_14-10-17 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-11-33 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-11-33 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-11-33 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-11-33 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-11-33 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-11-33 – PARSING – INFO – Закончена обработка профессии: Data Scientist
+2026-04-27_14-11-33 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-11-35 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Data+Engineer&ored_clusters=true
+2026-04-27_14-11-35 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-12-51 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-12-51 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-12-51 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-12-51 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-12-51 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-12-51 – PARSING – INFO – Закончена обработка профессии: Data Engineer
+2026-04-27_14-12-51 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-12-53 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=ML+Engineer&ored_clusters=true
+2026-04-27_14-12-53 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-14-09 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-14-09 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-14-09 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-14-09 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-14-09 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-14-09 – PARSING – INFO – Закончена обработка профессии: ML Engineer
+2026-04-27_14-14-09 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-14-11 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=AI+Engineer&ored_clusters=true
+2026-04-27_14-14-11 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-15-27 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-15-27 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-15-27 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 1
+2026-04-27_14-15-27 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-15-27 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-15-27 – PARSING – INFO – Закончена обработка профессии: AI Engineer
+2026-04-27_14-15-27 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-15-29 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Бизнес+аналитик&ored_clusters=true
+2026-04-27_14-15-29 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-16-45 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-16-46 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-18-02 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_14-18-02 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_14-19-18 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 2)--- 
+2026-04-27_14-19-18 – PARSING – DEBUG – Очистка переменной soup после: 2
+2026-04-27_14-20-35 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 3)--- 
+2026-04-27_14-20-35 – PARSING – DEBUG – Очистка переменной soup после: 3
+2026-04-27_14-21-51 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 4)--- 
+2026-04-27_14-21-51 – PARSING – DEBUG – Очистка переменной soup после: 4
+2026-04-27_14-21-51 – PARSING – INFO – ВСЕГО СОБРАНО СТРАНИЦ 5
+2026-04-27_14-21-51 – PARSING – DEBUG – Очистка оперативной памяти через GC после финальной страницы
+2026-04-27_14-21-51 – PARSING – INFO – --- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---
+2026-04-27_14-21-51 – PARSING – INFO – Закончена обработка профессии: Бизнес аналитик
+2026-04-27_14-21-51 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-21-53 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Системный+аналитик&ored_clusters=true
+2026-04-27_14-21-53 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-23-09 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 0)--- 
+2026-04-27_14-23-09 – PARSING – DEBUG – Очистка переменной soup после: 0
+2026-04-27_14-24-25 – PARSING – INFO – --- УСПЕШНЫЙ ПЕРЕХОД К ВАКАНСИЯМ (страница 1)--- 
+2026-04-27_14-24-25 – PARSING – DEBUG – Очистка переменной soup после: 1
+2026-04-27_14-25-19 – PARSING – ERROR – Возникла ошибка: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=147.0.7727.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000104b55d78 cxxbridge1$string$len + 4160
+4   chromedriver                        0x0000000104b55a98 cxxbridge1$string$len + 3424
+5   chromedriver                        0x0000000104b54934 chromedriver + 231732
+6   chromedriver                        0x0000000104b77f38 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 125884
+7   chromedriver                        0x0000000104bf3af4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632696
+8   chromedriver                        0x0000000104ba927c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+9   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+10  chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+11  chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+12  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+13  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+14  chromedriver                        0x0000000105094920 cxxbridge1$str$ptr + 3109540
+15  chromedriver                        0x0000000105094a9c cxxbridge1$str$ptr + 3109920
+16  chromedriver                        0x00000001050a5ae4 cxxbridge1$str$ptr + 3179624
+17  libsystem_pthread.dylib             0x000000019e3e82e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019e3e30fc thread_start + 8
+
+2026-04-27_14-25-19 – PARSING – INFO – Закончена обработка профессии: Системный аналитик
+2026-04-27_14-25-19 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-25-21 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=BI+аналитик&ored_clusters=true
+2026-04-27_14-25-21 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-25-21 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-25-21 – PARSING – INFO – Закончена обработка профессии: BI аналитик
+2026-04-27_14-25-21 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-25-23 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+данных&ored_clusters=true
+2026-04-27_14-25-23 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-25-23 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-25-23 – PARSING – INFO – Закончена обработка профессии: Инженер данных
+2026-04-27_14-25-23 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-25-25 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=NLP+инженер&ored_clusters=true
+2026-04-27_14-25-25 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-25-25 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-25-25 – PARSING – INFO – Закончена обработка профессии: NLP инженер
+2026-04-27_14-25-25 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-39 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=DevOps+инженер&ored_clusters=true
+2026-04-27_14-27-39 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-39 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-39 – PARSING – INFO – Закончена обработка профессии: DevOps инженер
+2026-04-27_14-27-39 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-41 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Cloud+инженер&ored_clusters=true
+2026-04-27_14-27-41 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-41 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-41 – PARSING – INFO – Закончена обработка профессии: Cloud инженер
+2026-04-27_14-27-41 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-43 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Системный+администратор&ored_clusters=true
+2026-04-27_14-27-43 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-43 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-43 – PARSING – INFO – Закончена обработка профессии: Системный администратор
+2026-04-27_14-27-43 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-45 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Сетевой+инженер&ored_clusters=true
+2026-04-27_14-27-45 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-45 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-45 – PARSING – INFO – Закончена обработка профессии: Сетевой инженер
+2026-04-27_14-27-45 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-47 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=DBA+администратор+баз+данных&ored_clusters=true
+2026-04-27_14-27-47 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-47 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-47 – PARSING – INFO – Закончена обработка профессии: DBA администратор баз данных
+2026-04-27_14-27-47 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-49 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+по+кибербезопасности&ored_clusters=true
+2026-04-27_14-27-49 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-49 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-49 – PARSING – INFO – Закончена обработка профессии: Инженер по кибербезопасности
+2026-04-27_14-27-49 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-51 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Специалист+информационной+безопасности&ored_clusters=true
+2026-04-27_14-27-51 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-51 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-51 – PARSING – INFO – Закончена обработка профессии: Специалист информационной безопасности
+2026-04-27_14-27-51 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-53 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Site+Reliability+Engineer&ored_clusters=true
+2026-04-27_14-27-53 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-53 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-53 – PARSING – INFO – Закончена обработка профессии: Site Reliability Engineer
+2026-04-27_14-27-53 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-55 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Архитектор+программного+обеспечения&ored_clusters=true
+2026-04-27_14-27-55 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-55 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-55 – PARSING – INFO – Закончена обработка профессии: Архитектор программного обеспечения
+2026-04-27_14-27-55 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-57 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Технический+директор+CTO&ored_clusters=true
+2026-04-27_14-27-57 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-57 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-57 – PARSING – INFO – Закончена обработка профессии: Технический директор CTO
+2026-04-27_14-27-57 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-27-59 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=QA+инженер&ored_clusters=true
+2026-04-27_14-27-59 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-27-59 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-27-59 – PARSING – INFO – Закончена обработка профессии: QA инженер
+2026-04-27_14-27-59 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-01 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Тестировщик&ored_clusters=true
+2026-04-27_14-28-01 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-01 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-01 – PARSING – INFO – Закончена обработка профессии: Тестировщик
+2026-04-27_14-28-01 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-03 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Автоматизатор+тестирования&ored_clusters=true
+2026-04-27_14-28-03 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-03 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-03 – PARSING – INFO – Закончена обработка профессии: Автоматизатор тестирования
+2026-04-27_14-28-03 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-05 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Продуктовый+менеджер&ored_clusters=true
+2026-04-27_14-28-05 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-05 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-05 – PARSING – INFO – Закончена обработка профессии: Продуктовый менеджер
+2026-04-27_14-28-05 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-07 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Проджект+менеджер&ored_clusters=true
+2026-04-27_14-28-07 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-07 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-07 – PARSING – INFO – Закончена обработка профессии: Проджект менеджер
+2026-04-27_14-28-07 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-09 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Scrum+мастер&ored_clusters=true
+2026-04-27_14-28-09 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-09 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-09 – PARSING – INFO – Закончена обработка профессии: Scrum мастер
+2026-04-27_14-28-09 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-11 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Технический+писатель&ored_clusters=true
+2026-04-27_14-28-11 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-11 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-11 – PARSING – INFO – Закончена обработка профессии: Технический писатель
+2026-04-27_14-28-11 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-13 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=UX+UI+дизайнер&ored_clusters=true
+2026-04-27_14-28-13 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-14 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-14 – PARSING – INFO – Закончена обработка профессии: UX UI дизайнер
+2026-04-27_14-28-14 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-16 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Графический+дизайнер&ored_clusters=true
+2026-04-27_14-28-16 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-16 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-16 – PARSING – INFO – Закончена обработка профессии: Графический дизайнер
+2026-04-27_14-28-16 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-18 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Game+разработчик&ored_clusters=true
+2026-04-27_14-28-18 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-18 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-18 – PARSING – INFO – Закончена обработка профессии: Game разработчик
+2026-04-27_14-28-18 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-20 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Бухгалтер&ored_clusters=true
+2026-04-27_14-28-20 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-20 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-20 – PARSING – INFO – Закончена обработка профессии: Бухгалтер
+2026-04-27_14-28-20 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-22 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Главный+бухгалтер&ored_clusters=true
+2026-04-27_14-28-22 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-22 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-22 – PARSING – INFO – Закончена обработка профессии: Главный бухгалтер
+2026-04-27_14-28-22 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-24 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Финансовый+аналитик&ored_clusters=true
+2026-04-27_14-28-24 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-24 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-24 – PARSING – INFO – Закончена обработка профессии: Финансовый аналитик
+2026-04-27_14-28-24 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-26 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Финансовый+директор&ored_clusters=true
+2026-04-27_14-28-26 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-26 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-26 – PARSING – INFO – Закончена обработка профессии: Финансовый директор
+2026-04-27_14-28-26 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-28 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Экономист&ored_clusters=true
+2026-04-27_14-28-28 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-28 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-28 – PARSING – INFO – Закончена обработка профессии: Экономист
+2026-04-27_14-28-28 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-30 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Аудитор&ored_clusters=true
+2026-04-27_14-28-30 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-30 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-30 – PARSING – INFO – Закончена обработка профессии: Аудитор
+2026-04-27_14-28-30 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-32 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Налоговый+консультант&ored_clusters=true
+2026-04-27_14-28-32 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-32 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-32 – PARSING – INFO – Закончена обработка профессии: Налоговый консультант
+2026-04-27_14-28-32 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-34 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Риск+менеджер&ored_clusters=true
+2026-04-27_14-28-34 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-34 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-34 – PARSING – INFO – Закончена обработка профессии: Риск менеджер
+2026-04-27_14-28-34 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-36 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инвестиционный+аналитик&ored_clusters=true
+2026-04-27_14-28-36 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-36 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-36 – PARSING – INFO – Закончена обработка профессии: Инвестиционный аналитик
+2026-04-27_14-28-36 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-38 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Актуарий&ored_clusters=true
+2026-04-27_14-28-38 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-38 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-38 – PARSING – INFO – Закончена обработка профессии: Актуарий
+2026-04-27_14-28-38 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-40 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Менеджер+по+продажам&ored_clusters=true
+2026-04-27_14-28-40 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-40 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-40 – PARSING – INFO – Закончена обработка профессии: Менеджер по продажам
+2026-04-27_14-28-40 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-42 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Руководитель+отдела+продаж&ored_clusters=true
+2026-04-27_14-28-42 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-42 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-42 – PARSING – INFO – Закончена обработка профессии: Руководитель отдела продаж
+2026-04-27_14-28-42 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-44 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Маркетолог&ored_clusters=true
+2026-04-27_14-28-44 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-44 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-44 – PARSING – INFO – Закончена обработка профессии: Маркетолог
+2026-04-27_14-28-44 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-46 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Digital+маркетолог&ored_clusters=true
+2026-04-27_14-28-46 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-46 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-46 – PARSING – INFO – Закончена обработка профессии: Digital маркетолог
+2026-04-27_14-28-46 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-48 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=SEO+специалист&ored_clusters=true
+2026-04-27_14-28-48 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-48 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-48 – PARSING – INFO – Закончена обработка профессии: SEO специалист
+2026-04-27_14-28-48 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-50 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Контент+менеджер&ored_clusters=true
+2026-04-27_14-28-50 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-50 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-50 – PARSING – INFO – Закончена обработка профессии: Контент менеджер
+2026-04-27_14-28-50 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-52 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=SMM+менеджер&ored_clusters=true
+2026-04-27_14-28-52 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-52 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-52 – PARSING – INFO – Закончена обработка профессии: SMM менеджер
+2026-04-27_14-28-52 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-54 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Таргетолог&ored_clusters=true
+2026-04-27_14-28-54 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-54 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-54 – PARSING – INFO – Закончена обработка профессии: Таргетолог
+2026-04-27_14-28-54 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-56 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Менеджер+по+работе+с+клиентами&ored_clusters=true
+2026-04-27_14-28-56 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-56 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-56 – PARSING – INFO – Закончена обработка профессии: Менеджер по работе с клиентами
+2026-04-27_14-28-56 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-28-58 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Менеджер+по+развитию+бизнеса&ored_clusters=true
+2026-04-27_14-28-58 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-28-58 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-28-58 – PARSING – INFO – Закончена обработка профессии: Менеджер по развитию бизнеса
+2026-04-27_14-28-58 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-00 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=HR+менеджер&ored_clusters=true
+2026-04-27_14-29-00 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-00 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-00 – PARSING – INFO – Закончена обработка профессии: HR менеджер
+2026-04-27_14-29-00 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-02 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Рекрутер&ored_clusters=true
+2026-04-27_14-29-02 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-02 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-02 – PARSING – INFO – Закончена обработка профессии: Рекрутер
+2026-04-27_14-29-02 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-04 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=HR+бизнес+партнер&ored_clusters=true
+2026-04-27_14-29-04 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-04 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-04 – PARSING – INFO – Закончена обработка профессии: HR бизнес партнер
+2026-04-27_14-29-04 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-06 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Менеджер+по+обучению+персонала&ored_clusters=true
+2026-04-27_14-29-06 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-06 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-06 – PARSING – INFO – Закончена обработка профессии: Менеджер по обучению персонала
+2026-04-27_14-29-06 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-08 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Операционный+директор&ored_clusters=true
+2026-04-27_14-29-08 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-08 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-08 – PARSING – INFO – Закончена обработка профессии: Операционный директор
+2026-04-27_14-29-08 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-10 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Генеральный+директор&ored_clusters=true
+2026-04-27_14-29-10 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-10 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-10 – PARSING – INFO – Закончена обработка профессии: Генеральный директор
+2026-04-27_14-29-10 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-12 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Врач+терапевт&ored_clusters=true
+2026-04-27_14-29-12 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-12 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-12 – PARSING – INFO – Закончена обработка профессии: Врач терапевт
+2026-04-27_14-29-12 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-14 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Врач+педиатр&ored_clusters=true
+2026-04-27_14-29-14 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-14 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-14 – PARSING – INFO – Закончена обработка профессии: Врач педиатр
+2026-04-27_14-29-14 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-16 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Врач+кардиолог&ored_clusters=true
+2026-04-27_14-29-16 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-16 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-16 – PARSING – INFO – Закончена обработка профессии: Врач кардиолог
+2026-04-27_14-29-16 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-18 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Врач+хирург&ored_clusters=true
+2026-04-27_14-29-18 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-18 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-18 – PARSING – INFO – Закончена обработка профессии: Врач хирург
+2026-04-27_14-29-18 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-20 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Медицинская+сестра&ored_clusters=true
+2026-04-27_14-29-20 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-20 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-20 – PARSING – INFO – Закончена обработка профессии: Медицинская сестра
+2026-04-27_14-29-20 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-22 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Фармацевт&ored_clusters=true
+2026-04-27_14-29-22 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-22 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-22 – PARSING – INFO – Закончена обработка профессии: Фармацевт
+2026-04-27_14-29-22 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-24 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Психолог&ored_clusters=true
+2026-04-27_14-29-24 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-24 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-24 – PARSING – INFO – Закончена обработка профессии: Психолог
+2026-04-27_14-29-24 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-26 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Психотерапевт&ored_clusters=true
+2026-04-27_14-29-26 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-26 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-26 – PARSING – INFO – Закончена обработка профессии: Психотерапевт
+2026-04-27_14-29-26 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-28 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+конструктор&ored_clusters=true
+2026-04-27_14-29-28 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-28 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-28 – PARSING – INFO – Закончена обработка профессии: Инженер конструктор
+2026-04-27_14-29-28 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-30 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+проектировщик&ored_clusters=true
+2026-04-27_14-29-30 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-30 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-30 – PARSING – INFO – Закончена обработка профессии: Инженер проектировщик
+2026-04-27_14-29-30 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-32 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+технолог&ored_clusters=true
+2026-04-27_14-29-32 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-32 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-32 – PARSING – INFO – Закончена обработка профессии: Инженер технолог
+2026-04-27_14-29-32 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-34 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Инженер+по+охране+труда&ored_clusters=true
+2026-04-27_14-29-34 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-34 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-34 – PARSING – INFO – Закончена обработка профессии: Инженер по охране труда
+2026-04-27_14-29-34 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-36 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Прораб&ored_clusters=true
+2026-04-27_14-29-36 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-36 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-36 – PARSING – INFO – Закончена обработка профессии: Прораб
+2026-04-27_14-29-36 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-38 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Архитектор&ored_clusters=true
+2026-04-27_14-29-38 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-38 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-38 – PARSING – INFO – Закончена обработка профессии: Архитектор
+2026-04-27_14-29-38 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-40 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Сметчик&ored_clusters=true
+2026-04-27_14-29-40 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-40 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-40 – PARSING – INFO – Закончена обработка профессии: Сметчик
+2026-04-27_14-29-40 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-42 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Электромонтажник&ored_clusters=true
+2026-04-27_14-29-42 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-42 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-42 – PARSING – INFO – Закончена обработка профессии: Электромонтажник
+2026-04-27_14-29-42 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-44 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Сварщик&ored_clusters=true
+2026-04-27_14-29-44 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-44 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-44 – PARSING – INFO – Закончена обработка профессии: Сварщик
+2026-04-27_14-29-44 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-46 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Автослесарь&ored_clusters=true
+2026-04-27_14-29-46 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-46 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-46 – PARSING – INFO – Закончена обработка профессии: Автослесарь
+2026-04-27_14-29-46 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-48 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Логист&ored_clusters=true
+2026-04-27_14-29-48 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-48 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-48 – PARSING – INFO – Закончена обработка профессии: Логист
+2026-04-27_14-29-48 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-50 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Менеджер+по+логистике&ored_clusters=true
+2026-04-27_14-29-50 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-50 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-50 – PARSING – INFO – Закончена обработка профессии: Менеджер по логистике
+2026-04-27_14-29-50 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-52 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Водитель&ored_clusters=true
+2026-04-27_14-29-52 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-52 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-52 – PARSING – INFO – Закончена обработка профессии: Водитель
+2026-04-27_14-29-52 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
+2026-04-27_14-29-54 – PARSING – DEBUG – Итоговая ссылка с названием профессии: ?text=Кладовщик&ored_clusters=true
+2026-04-27_14-29-54 – PARSING – INFO – --- 3. Получение страницы ---
+2026-04-27_14-29-54 – PARSING – ERROR – Возникла ошибка: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001050adebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001050a5e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104b6b6d8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74588
+3   chromedriver                        0x0000000104ba85e8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324204
+4   chromedriver                        0x0000000104bcfb04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 485256
+5   chromedriver                        0x0000000104bcefdc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482400
+6   chromedriver                        0x0000000104b38acc chromedriver + 117452
+7   chromedriver                        0x000000010506bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x000000010506f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000105050e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x000000010506ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000105041828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104b36858 chromedriver + 108632
+13  dyld                                0x000000019e068274 start + 2840
+
+2026-04-27_14-29-54 – PARSING – INFO – Закончена обработка профессии: Кладовщик
+2026-04-27_14-29-54 – PARSING – DEBUG – Программа остановлена на 2 секунды при смене профессии
