@@ -9,6 +9,7 @@ from langchain_core.tools import tool
 
 from tools.llm import get_llm
 from tools.executor import exec_llm_code_with_retry
+from tools.prompt_styles import compose_prompt
 
 
 @tool
@@ -19,7 +20,7 @@ def load_and_explore_data(filepath: str) -> str:
     """
     llm = get_llm()
 
-    prompt = f"""Ты — Data Engineer. Напиши Python-код для загрузки и анализа CSV файла с вакансиями HH.ru.
+    prompt = compose_prompt(f"""Ты — Data Engineer. Напиши Python-код для загрузки и анализа CSV файла с вакансиями HH.ru.
 
 ЗАДАЧА:
 1. Загрузи CSV файл по пути: {filepath}
@@ -36,7 +37,7 @@ def load_and_explore_data(filepath: str) -> str:
 - НЕ используй переменные которые не объявил сам
 - Определяй salary_columns через простой перебор: [col for col in df.columns if 'salary' in col.lower()]
 - Возвращай только Python-код, без пояснений, без markdown-блоков
-"""
+""")
 
     response = llm.invoke(prompt)
 

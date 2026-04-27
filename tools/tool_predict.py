@@ -9,6 +9,7 @@ from langchain_core.tools import tool
 
 from tools.llm import get_llm
 from tools.executor import exec_llm_code_with_retry
+from tools.prompt_styles import compose_prompt
 from tools.state import STATE
 
 
@@ -34,7 +35,7 @@ def predict_salary(vacancy_json: str) -> str:
 
     llm = get_llm()
 
-    prompt = f"""Ты — ML-инженер. Напиши Python-код для преобразования вакансии в вектор признаков.
+    prompt = compose_prompt(f"""Ты — ML-инженер. Напиши Python-код для преобразования вакансии в вектор признаков.
 
 ВАКАНСИЯ (уже доступна как переменная `vacancy` — dict):
 {vacancy_json}
@@ -64,7 +65,7 @@ def predict_salary(vacancy_json: str) -> str:
 import pandas as pd
 Все отсутствующие признаки = 0.
 Возвращай только Python-код без пояснений и без markdown-блоков.
-"""
+""")
 
     response = llm.invoke(prompt)
 

@@ -9,6 +9,7 @@ from langchain_core.tools import tool
 
 from tools.llm import get_llm
 from tools.executor import exec_llm_code_with_retry
+from tools.prompt_styles import compose_prompt
 from tools.state import STATE
 
 
@@ -21,7 +22,7 @@ def preprocess_data(filepath: str) -> str:
     """
     llm = get_llm()
 
-    prompt = f"""Ты — опытный ML-инженер. Напиши Python-код для предобработки датасета вакансий с HH.ru.
+    prompt = compose_prompt(f"""Ты — опытный ML-инженер. Напиши Python-код для предобработки датасета вакансий с HH.ru.
 
 ФАЙЛ: {filepath}
 
@@ -73,7 +74,7 @@ def preprocess_data(filepath: str) -> str:
 - import pandas as pd, import numpy as np
 - Все признаки-колонки заполняй 0 если исходной колонки нет в данных
 - Возвращай только Python-код без пояснений и без markdown-блоков
-"""
+""")
 
     response = llm.invoke(prompt)
 

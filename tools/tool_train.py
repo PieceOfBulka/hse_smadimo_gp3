@@ -9,6 +9,7 @@ from langchain_core.tools import tool
 
 from tools.llm import get_llm
 from tools.executor import exec_llm_code_with_retry
+from tools.prompt_styles import compose_prompt
 from tools.state import STATE
 
 
@@ -34,7 +35,7 @@ def train_and_compare_models(dummy: str = "") -> str:
 
     llm = get_llm()
 
-    prompt = f"""Ты — ML-инженер. Напиши Python-код для обучения и сравнения трёх моделей регрессии.
+    prompt = compose_prompt(f"""Ты — ML-инженер. Напиши Python-код для обучения и сравнения трёх моделей регрессии.
 
 КОНТЕКСТ ДАННЫХ:
 {json.dumps(context, ensure_ascii=False)}
@@ -75,7 +76,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
 
 Возвращай только Python-код без пояснений и без markdown-блоков.
-"""
+""")
 
     response = llm.invoke(prompt)
 
