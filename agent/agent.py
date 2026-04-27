@@ -1,10 +1,23 @@
 import os
 from dotenv import load_dotenv
+from fastapi import FastAPI
+from pydantic import BaseModel
+import logging
+from time import time
 
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 
+from tools.sandbox_tool import sandbox_tool
+
+log_level = os.getenv('LOG_LEVEL', 'INFO')
+if log_level:
+    logging.basicConfig(level=log_level.upper())
+logger = logging.getLogger(__name__)
+
 load_dotenv()
+
+app = FastAPI(title='agent container')
 
 model = ChatOpenAI(
     model=os.getenv('MODEL_NAME', 'minimax/minimax-m2.5:free'),
@@ -14,9 +27,29 @@ model = ChatOpenAI(
 
 agent = create_react_agent(
     model=model,
-    tools=[],
+    tools=[sandbox_tool],
     prompt='Ты умный помощник по написанию кода для ML проектов'
 )
+
+
+class Request(BaseModel):
+    text: str
+
+
+@app.post('/run')
+def process_user_request(user_request: Request):
+    try:
+        logger.info('Начало обработки запроса агентом')
+        start_time = time()
+        agent_response = agent.invoke({'messages': [{'role':'user', 'content': user_request.text}]})
+
+        if 'messages' in agent_response:
+            logger.info(f'Агент отработал за {round(time()-start_time, 2)} сек.')
+            return {'status': 'success', 'answer': agent_response['messages'][-1].content}
+    except Exception as e:
+        logger.error(f'Ошибка во время работы агента: {e}')
+        return {'status': 'error', 'error': e}
+
 
 if __name__ == '__main__':
     while True:

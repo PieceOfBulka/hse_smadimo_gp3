@@ -1,4 +1,7 @@
 dotenv
+fastapi
+pydantic
+uvicorn
 
 langgraph
 langchain_openai
