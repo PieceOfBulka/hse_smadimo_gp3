@@ -35,6 +35,7 @@ def create_driver():
 
     driver = webdriver.Chrome(options=new_options)
 
+
     if driver:
         log.info(f'Драйвер для работы с selenium создан: {driver}')
         return driver

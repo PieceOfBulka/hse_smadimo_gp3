@@ -1,0 +1,16 @@
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Старт обработки
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – --- Была создана временная таблица ---
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – --- Найдены незаполненые значения ---
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Найдено необработанных вакансий: 4
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Обработка: 131963477
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Обработка: 131657596
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Обработка: 132168866
+2026-04-27_19-34-07 – DB_COLLECT_MORE_DATA – INFO – Обработка: 132311843
+2026-04-27_19-34-12 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131657596
+2026-04-27_19-34-13 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132311843
+2026-04-27_19-34-14 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132168866
+2026-04-27_19-34-14 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131963477
+2026-04-27_19-34-15 – DB_COLLECT_MORE_DATA – ERROR – Ошибка LLM парсинга: 'choices'
+2026-04-27_19-34-15 – DB_COLLECT_MORE_DATA – WARNING – LLM упал для 131657596
+2026-04-27_19-34-15 – DB_COLLECT_MORE_DATA – ERROR – Ошибка LLM парсинга: 'choices'
+2026-04-27_19-34-15 – DB_COLLECT_MORE_DATA – WARNING – LLM упал для 132311843

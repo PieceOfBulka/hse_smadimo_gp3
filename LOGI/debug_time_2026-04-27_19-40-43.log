@@ -1,0 +1,16 @@
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Старт обработки
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – --- Была создана временная таблица ---
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – --- Найдены незаполненые значения ---
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Найдено необработанных вакансий: 4
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Обработка: 131963477
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Обработка: 131657596
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Обработка: 132311843
+2026-04-27_19-40-43 – DB_COLLECT_MORE_DATA – INFO – Обработка: 132168866
+2026-04-27_19-40-47 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132168866
+2026-04-27_19-40-47 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132311843
+2026-04-27_19-40-49 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131963477
+2026-04-27_19-40-52 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131657596
+2026-04-27_19-41-05 – DB_COLLECT_MORE_DATA – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_19-41-05 – DB_COLLECT_MORE_DATA – WARNING – LLM упал для 132168866
+2026-04-27_19-41-11 – DB_COLLECT_MORE_DATA – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_19-41-11 – DB_COLLECT_MORE_DATA – WARNING – LLM упал для 131963477

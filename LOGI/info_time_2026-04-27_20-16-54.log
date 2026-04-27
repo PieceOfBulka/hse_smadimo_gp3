@@ -1,0 +1,23 @@
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – Старт обработки
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – Соединение с БД установлено
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – --- Была создана временная таблица ---
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – --- Найдены незаполненые значения ---
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – Найдено необработанных вакансий: 4
+2026-04-27_20-16-54 – DB_COLLECT_MORE_DATA_V2 – INFO – [1/4] Обработка: 131963477
+2026-04-27_20-16-55 – DB_COLLECT_MORE_DATA_V2 – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131963477
+2026-04-27_20-17-07 – DB_COLLECT_MORE_DATA_V2 – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_20-17-07 – DB_COLLECT_MORE_DATA_V2 – WARNING – LLM упал с ошибкой для 131963477 - пропускаем
+2026-04-27_20-17-07 – DB_COLLECT_MORE_DATA_V2 – INFO – [2/4] Обработка: 131657596
+2026-04-27_20-17-09 – DB_COLLECT_MORE_DATA_V2 – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131657596
+2026-04-27_20-17-17 – DB_COLLECT_MORE_DATA_V2 – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_20-17-17 – DB_COLLECT_MORE_DATA_V2 – WARNING – LLM упал с ошибкой для 131657596 - пропускаем
+2026-04-27_20-17-17 – DB_COLLECT_MORE_DATA_V2 – INFO – [3/4] Обработка: 132311843
+2026-04-27_20-17-19 – DB_COLLECT_MORE_DATA_V2 – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132311843
+2026-04-27_20-17-26 – DB_COLLECT_MORE_DATA_V2 – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_20-17-26 – DB_COLLECT_MORE_DATA_V2 – WARNING – LLM упал с ошибкой для 132311843 - пропускаем
+2026-04-27_20-17-26 – DB_COLLECT_MORE_DATA_V2 – INFO – [4/4] Обработка: 132168866
+2026-04-27_20-17-27 – DB_COLLECT_MORE_DATA_V2 – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132168866
+2026-04-27_20-17-34 – DB_COLLECT_MORE_DATA_V2 – ERROR – ОШИБКА отвеа LLM: <Response [200]>
+2026-04-27_20-17-34 – DB_COLLECT_MORE_DATA_V2 – WARNING – LLM упал с ошибкой для 132168866 - пропускаем
+2026-04-27_20-17-34 – DB_COLLECT_MORE_DATA_V2 – INFO – Соединение с БД закрыто
+2026-04-27_20-17-34 – DB_COLLECT_MORE_DATA_V2 – INFO – Драйвер успешно закрыт

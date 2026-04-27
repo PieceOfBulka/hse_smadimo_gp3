@@ -1,0 +1,6 @@
+#!/Users/anastasia/Desktop/HSE/HSE_3/СМАДИМО/GP_3/hse_smadimo_gp3/.venv/bin/python
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

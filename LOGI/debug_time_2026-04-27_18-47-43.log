@@ -1,0 +1,19 @@
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – Драйвер для работы с selenium создан: <selenium.webdriver.chrome.webdriver.WebDriver (session="70f3288cdc83c852d33f99e47320cf72")>
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – Соединение с БД установлено
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – --- Была создана временная таблица ---
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – --- Найдены незаполненые значения ---
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – Найдено необработанных вакансий: 26811
+2026-04-27_18-48-21 – DB_COLLECT_MORE_DATA – INFO – [1/26811] Обработка: 131963477
+2026-04-27_18-48-30 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131963477
+2026-04-27_18-48-32 – DB_COLLECT_MORE_DATA – ERROR – Ошибка LLM парсинга: name 'OpenRouter' is not defined
+2026-04-27_18-48-32 – DB_COLLECT_MORE_DATA – WARNING – LLM упал с ошибкой для 131963477, пропускаем
+2026-04-27_18-48-32 – DB_COLLECT_MORE_DATA – INFO – [2/26811] Обработка: 132530194
+2026-04-27_18-48-33 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/132530194
+2026-04-27_18-48-35 – DB_COLLECT_MORE_DATA – ERROR – Ошибка LLM парсинга: name 'OpenRouter' is not defined
+2026-04-27_18-48-35 – DB_COLLECT_MORE_DATA – WARNING – LLM упал с ошибкой для 132530194, пропускаем
+2026-04-27_18-48-35 – DB_COLLECT_MORE_DATA – INFO – [3/26811] Обработка: 131744414
+2026-04-27_18-48-40 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131744414
+2026-04-27_18-48-42 – DB_COLLECT_MORE_DATA – ERROR – Ошибка LLM парсинга: name 'OpenRouter' is not defined
+2026-04-27_18-48-42 – DB_COLLECT_MORE_DATA – WARNING – LLM упал с ошибкой для 131744414, пропускаем
+2026-04-27_18-48-42 – DB_COLLECT_MORE_DATA – INFO – [4/26811] Обработка: 131657596
+2026-04-27_18-48-45 – DB_COLLECT_MORE_DATA – INFO – Успешный переход по ссылке: https://hh.ru/vacancy/131657596
