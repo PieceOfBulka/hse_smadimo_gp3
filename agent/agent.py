@@ -8,7 +8,7 @@ from time import time
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 
-from tools.sandbox_tool import sandbox_tool
+from tools.sandbox_tool import python_code_execution
 
 log_level = os.getenv('LOG_LEVEL', 'INFO')
 if log_level:
@@ -27,7 +27,7 @@ model = ChatOpenAI(
 
 agent = create_react_agent(
     model=model,
-    tools=[sandbox_tool],
+    tools=[python_code_execution],
     prompt='Ты умный помощник по написанию кода для ML проектов'
 )
 
@@ -38,6 +38,9 @@ class Request(BaseModel):
 
 @app.post('/run')
 def process_user_request(user_request: Request):
+    with open('/app/logs/agent.txt', 'a', encoding='utf-8') as f:
+        f.write('\n\n====Запрос от пользователя\n')
+        f.write(user_request.text)
     try:
         logger.info('Начало обработки запроса агентом')
         start_time = time()
@@ -45,10 +48,14 @@ def process_user_request(user_request: Request):
 
         if 'messages' in agent_response:
             logger.info(f'Агент отработал за {round(time()-start_time, 2)} сек.')
-            return {'status': 'success', 'answer': agent_response['messages'][-1].content}
+            result = agent_response['messages'][-1].content
+            with open('/app/logs/agent.txt', 'a', encoding='utf-8') as f:
+                f.write('\n====Ответ агента\n')
+                f.write(result)
+            return {'status': 'success', 'answer': result}
     except Exception as e:
         logger.error(f'Ошибка во время работы агента: {e}')
-        return {'status': 'error', 'error': e}
+        return {'status': 'error', 'error': str(e)}
 
 
 if __name__ == '__main__':
