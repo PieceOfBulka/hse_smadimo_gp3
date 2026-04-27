@@ -70,14 +70,15 @@ def get_info_from_user() -> str:
 
 def prepare_user_response(text: str) -> str | int:
     try: 
-        if isinstance('text', str) and len(text) >= 1:
+        if isinstance(text, str) and len(text) >= 1:
             text = text.strip()
             words = ''
 
-            if ' ' in text:
-                key_words = text.split()
-                for item in key_words:
-                    words += item + '+'
+            # if ' ' in text:
+            #     key_words = text.split()
+            #     words = '+'.join(key_words)
+
+            words = '+'.join(text.split())
 
             synonims = '&ored_clusters=true'
             result_link = '?text=' + words + synonims
@@ -145,9 +146,13 @@ def get_info_job_title(total_link):
                         print(f'Переход к вакансиям не удался')
                         return -1
 
-                with open(f'page_{total_link}.html', 'w', encoding='utf-8') as file:
-                    file.write(all_html)
-                    print(f' --- СТРАНИЦА {page} СОХРАНЕНА В HTML ---')
+                if all_html:
+                    path_to_final = os.path.join('checkpoints', f'page_{total_link[3::]}_checkpoint_final.html')
+                    
+                    with open(path_to_final, 'w', encoding='utf-8') as file:
+                        file.write(all_html)
+                print(f'--- ФИНАЛЬНОЕ СОХРАНЕНИЕ ---')
+                
                 return 1
         else:
             print(f'Переход на главную страницу не удался...')
@@ -163,7 +168,7 @@ if __name__ == '__main__':
     job_name = get_info_from_user()
 
     print('--- 2. Обработка запроса ---')
-    second_link_part = prepare_user_response('Аналитик данных')    
+    second_link_part = prepare_user_response(job_name)    
     if second_link_part == -1:
         print(' --- ОШИБКА: некорректный запрос пользователя')
     else:

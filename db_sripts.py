@@ -16,6 +16,7 @@ def create_table(cursor, conn):
         salary_to INTEGER,
         currency TEXT,
         employer TEXT,
+        address_raw TEXT,
         area TEXT,
         skills TEXT, -- передаем в формате json
         published_at TIMESTAMP
@@ -28,21 +29,22 @@ def create_table(cursor, conn):
         print(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
 
-def insert_data(cursor, conn):
+def insert_data_first_batch(cursor, conn, batch_list):
     try:
-        query = """INSERT INTO vacancies (hh_vac_id, hh_vac_link, title, experience, employment, schedule, salary_from, salary_to, currency, employer, area, skills, published_at)
+        
+        query = """ INSERT OR IGNORE INTO vacancies
+        (hh_vac_id, hh_vac_link, title, experience, salary_raw, employer, address_raw)
         VALUES
-        ('98765432', 'https://hh.ru/vacancy/98765432', 'Data Scientist', 'between3And6', 'full', 'remote', 200000, 300000, 'RUR', 'Яндекс', 'Москва', '["Python", "ML", "SQL", "PyTorch"]', '2024-03-15 10:00:00'),
-        ('11223344', 'https://hh.ru/vacancy/11223344', 'Backend Developer', 'between1And3', 'full', 'fullDay', 120000, 180000, 'RUR', 'Тинькофф', 'Санкт-Петербург', '["Python", "FastAPI", "PostgreSQL", "Redis"]', '2024-03-14 09:30:00'),
-        ('55667788', 'https://hh.ru/vacancy/55667788', 'Junior Python Developer', 'noExperience', 'full', 'flexible', NULL, 80000, 'RUR', 'СберТех', 'Москва', '["Python", "Django"]', '2024-03-13 14:00:00');
+        (:hh_vac_id, :hh_vac_link, :title, :experience, :salary_raw, :company_name, :address_raw)    
         """
 
-        cursor.execute(query)
+        cursor.executemany(query, batch_list)
         conn.commit()
+        print(f'--- Сохранено {len(batch_list)} вакансий ---')
     except Exception as ex:
         print(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
-def select_data(cursor):
+def select_all_data(cursor):
     try:
         query = """ SELECT *
         FROM vacancies;
@@ -54,21 +56,34 @@ def select_data(cursor):
     except Exception as ex:
         print(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
+def select_limit_data(cursor, limit=100):
+    try:
+        query = f""" SELECT *
+        FROM vacancies
+        LIMIT {limit};
+        """ 
+
+        cursor.execute(query)
+        answer = cursor.fetchall()
+        return answer
+    except Exception as ex:
+        print(f'Возникла ошибка при первичном создании таблицы: {ex}')
+
 def DROP_TABLE(cursor, conn):
     try:
-        query = """DROP TABLE EXISTS vacancies;"""
+        query = """DROP TABLE IF EXISTS vacancies;"""
         
         cursor.execute(query)
         conn.commit()
     except Exception as ex:
         print(f'Возникла ошибка при первичном создании таблицы: {ex}')
 
-if __name__ == '__main__':
-    connection = sqlite3.Connection('GP_DB.db')
-    cursor = connection.cursor()
+# if __name__ == '__main__':
+#     connection = sqlite3.Connection('GP_DB.db')
+#     cursor = connection.cursor()
 
-    create_table(cursor, connection)
-    insert_data(cursor, connection)
-    print(select_data(cursor))
-    DROP_TABLE(cursor, connection)
-    connection.close()
+#     create_table(cursor, connection)
+#     insert_data(cursor, connection)
+#     print(select_data(cursor))
+#     DROP_TABLE(cursor, connection)
+#     connection.close()

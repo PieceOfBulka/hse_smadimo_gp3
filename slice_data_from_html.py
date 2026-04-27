@@ -1,6 +1,5 @@
-import time
 from bs4 import BeautifulSoup
-import fake_useragent
+import sqlite3
 import os
 import file_sripts
 import db_sripts
@@ -115,5 +114,37 @@ def get_first_data_batch(path_to_file):
     
     return result
 
+
+def parse_all_checkpoints(cursor, conn, checkpoints_dir='checkpoints'):
+    files = [item_file for item_file in os.listdir(checkpoints_dir) if item_file.endswith('.html')]
+    files.sort()
+
+    if len(files) == 0:
+        print(f'--- ОШИБКА: НЕ НАЙДЕНЫ HTML ФАЙЛЫ В {checkpoints_dir}')
+        return
+
+    already_get_id = set()
+    counter = 0
+    all_size = len(files)
+
+    for filename in files:
+        path = os.path.join(checkpoints_dir, filename)
+        print(f'! ОБРАБОТКА ФАЙЛА {path} --- {counter / all_size * 100}% !')
+
+        vac = get_first_data_batch(path)
+
+        unique_vac = [item for item in vac if item['hh_vac_id'] not in already_get_id]
+        already_get_id.update(item['hh_vac_id'] for item in unique_vac)
+
+        db_sripts.insert_data_first_batch(cursor, conn, unique_vac)
+
+    
 if __name__ == '__main__':
-    pass
+    connection = sqlite3.Connection('GP_DB.db')
+    cursor = connection.cursor()
+
+    parse_all_checkpoints(cursor, connection)
+    
+    print(db_sripts.select_limit_data(cursor))
+
+    connection.close()
